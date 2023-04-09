@@ -2,7 +2,7 @@ import random
 import argparse
 import requests
 
-PUN_REPOSITORY = 'https://raw.githubusercontent.com/thevahidal/no-pun-intended/main/pun_repository.txt'
+PUN_REPOSITORY = 'https://raw.githubusercontent.com/thevahidal/pun-cli/main/pun_repository.txt'
 VERSION = 'v' + '0.1.0'
 
 def get_puns():
@@ -40,7 +40,7 @@ def main():
     if args.add:
         print("Thanks for your contribution!")
         print("Please create a pull request to add your pun to the repository.")
-        print("https://github.com/thevahidal/no-pun-intended")
+        print("https://github.com/thevahidal/pun-cli")
 
     else:
       pun = generate_pun(args.keyword)
