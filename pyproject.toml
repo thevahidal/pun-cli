@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "pun-cli"
+version = "0.1.0"
+description = "Pun-CLI: Because you can't resist a good pun. Generate hilarious puns from our pun repository or contribute your own puns to the list. Pun-CLI, the command-line tool you never knew you needed."
+authors = ["Vahid Al <thevahidal@gmail.com>"]
+readme = "README.md"
+packages = [{include = "pun_cli"}]
+license = "MIT"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utilities",
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.28.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
