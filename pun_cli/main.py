@@ -1,9 +1,10 @@
 import random
 import argparse
 import requests
+import cowsay
 
 PUN_REPOSITORY = 'https://raw.githubusercontent.com/thevahidal/pun-cli/main/pun_repository.txt'
-VERSION = 'v' + '0.1.0'
+VERSION = 'v' + '0.1.2'
 
 def get_puns():
     try:
@@ -30,10 +31,11 @@ def generate_pun(keyword):
     return random.choice(puns)
 
 def main():
-    parser = argparse.ArgumentParser(description='Generate a random pun.')
+    parser = argparse.ArgumentParser(description='Unleash hilarious wordplay with a single command.')
     parser.add_argument('--keyword', '-k', help='Keyword to search for puns.')
-    parser.add_argument('--version', '-v', action='version', version='%(prog)s ' + VERSION, help='Print version and exit.')
+    parser.add_argument('--character', '-c', help='Character to use for the pun. One of: ' + ', '.join(cowsay.char_names))
     parser.add_argument('--add', '-a', help='Add a pun to the repository.', action='store_true')
+    parser.add_argument('--version', '-v', action='version', version='%(prog)s ' + VERSION, help='Print version and exit.')
 
     args = parser.parse_args()
 
@@ -44,8 +46,13 @@ def main():
 
     else:
       pun = generate_pun(args.keyword)
+      if args.character and args.character in cowsay.char_names:
+          character = args.character
+      else:
+        character = random.choice(cowsay.char_names)
 
-      print(pun)
+      print(cowsay.get_output_string(character, pun))
+
 
 if __name__ == '__main__':
     main()

@@ -98,6 +98,17 @@ files = [
 ]
 
 [[package]]
+name = "cowsay"
+version = "5.0"
+description = "The famous cowsay for GNU/Linux is now available for python"
+category = "main"
+optional = false
+python-versions = "*"
+files = [
+    {file = "cowsay-5.0.tar.gz", hash = "sha256:c00e02444f5bc7332826686bd44d963caabbaba9a804a63153822edce62bbbf3"},
+]
+
+[[package]]
 name = "idna"
 version = "3.4"
 description = "Internationalized Domain Names in Applications (IDNA)"
@@ -151,4 +162,4 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "3720ecb11f7b80aa927a028e9884835f8917eb421947278a570eb309bd1868a4"
+content-hash = "9f1711f4f195960627e19df96ef47e9e534af65aa47715d3bdd7186267071db1"
