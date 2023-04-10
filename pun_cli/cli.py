@@ -3,7 +3,7 @@ import cowsay
 import random
 from pun_cli.pun_generator import generate_pun
 
-VERSION = 'v' + '0.1.3'
+VERSION = 'v' + '0.1.4'
 
 def cli():
     parser = argparse.ArgumentParser(description='Unleash hilarious wordplay with a single command.')
