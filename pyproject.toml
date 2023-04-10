@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pun-cli"
-version = "0.1.2"
+version = "0.1.3"
 description = "Pun-CLI: Because you can't resist a good pun. Generate hilarious puns from our pun repository or contribute your own puns to the list. Pun-CLI, the command-line tool you never knew you needed."
 authors = ["Vahid Al <thevahidal@gmail.com>"]
 readme = "README.md"
