@@ -25,5 +25,8 @@ def cli():
             character = args.character
         else:
             character = random.choice(cowsay.char_names)
-
-        print(cowsay.get_output_string(character, pun))
+        
+        if pun == "":
+            return
+        
+        print(cowsay.get_output_string(char_name=character, text=pun))

@@ -20,7 +20,7 @@ def generate_pun(keyword: str):
         return ''
 
     if keyword:
-        puns = [pun for pun in puns if keyword in pun]
+        puns = [pun for pun in puns if keyword.lower() in pun.lower()]
         if len(puns) == 0:
             print('No puns found for keyword:', keyword)
             return ''
