@@ -25,10 +25,71 @@ Optional Arguments
 ## Examples
 ```bash
 $ pun-cli
-Why was the math book sad? Because it had too many problems.
+  _________________________________________________
+ /                                                 \
+| Why did the chicken cross the road? To get to the |
+|  other side.                                      |
+ \                                                 /
+  =================================================
+                                                      \
+                                                       \
+                                                        \
+                                                              _------~~-,
+                                                           ,'            ,
+                                                           /               \\
+                                                          /                :
+                                                         |                  '
+                                                         |                  |
+                                                         |                  |
+                                                          |   _--           |
+                                                          _| =-.     .-.   ||
+                                                          o|/o/       _.   |
+                                                          /  ~          \\ |
+                                                        (____\@)  ___~    |
+                                                           |_===~~~.`    |
+                                                        _______.--~     |
+                                                        \\________       |
+                                                                 \\      |
+                                                               __/-___-- -__
+                                                              /            _ \\
 
-$ pun-cli -k cheese
-I’m reading a book about anti-gravity. It’s impossible to put down.
+$ pun-cli -k restaurant  
+  _________________________________________________
+ /                                                 \
+| The man who invented auto-correct has died. Resta |
+| urant in peace.                                   |
+ \                                                 /
+  =================================================
+                                                 \
+                                                  \
+                                                   \
+                                                    \
+                                                              ,.
+                                                             (_|,.
+                                                             ,' /, )_______   _
+                                                         __j o``-'        `.'-)'
+                                                         (")                 \'
+                                                         `-j                |
+                                                           `-._(           /
+                                                              |_\  |--^.  /
+                                                             /_]'|_| /_)_/
+                                                                 /_]'  /_]'
+
+$ pun-cli -c cow
+  _________________________________________________
+ /                                                 \
+| Why do melons have weddings? Because they cantalo |
+| upe.                                              |
+ \                                                 /
+  =================================================
+                                                 \
+                                                  \
+                                                    ^__^
+                                                    (oo)\_______
+                                                    (__)\       )\/\
+                                                        ||----w |
+                                                        ||     ||
+
 ```
 
 ## Adding a Pun
